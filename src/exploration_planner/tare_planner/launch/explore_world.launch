@@ -20,7 +20,7 @@ def generate_launch_description():
 
     use_boundary_arg = DeclareLaunchArgument(
         'use_boundary',
-        default_value='true',
+        default_value='false',
         description='Use boundary for navigation')
 
     explore_launch = IncludeLaunchDescription(
